@@ -2,7 +2,7 @@
 
 ## what is chaos engineering
 
-- thoughful planned experiments designed to reveal weakness in our systems
+- thoughtful planned experiments designed to reveal weakness in our systems
 - scientific method
 
 ## measuring the cost of downtime:
@@ -14,7 +14,7 @@ r = revenue lost
 e = employee productivity
 
 after:
-c: customer chargebacks (sla breaches)
+c: customer chargebacks (SLA breaches)
 
 unqualifiable:
 b = brand defamation
@@ -40,7 +40,7 @@ ex: increasing latency 100ms -> 200 -> 500
 
 scientific method: 
 form a hypothesise
-xperiment and test 
+experiment and test 
 analyze results
 expand scope and retest 
 share results
@@ -69,7 +69,7 @@ process killer
 time travel
 
 network attacks:
-blakhole (servers for a microservice appear offline)
+blackhole (servers for a microservice appear offline)
 latency
 packet loss
 dns (ex: internal/external network, test 2nd dns)
@@ -95,10 +95,10 @@ share results after
 the end goal is to automate chaos engineering, using it in your ci/cd pipeline
 experiments ran across all environments for all critical services continuously
 
-start small, introduce to one servive/team
+start small, introduce to one survive/team
 start with low magnitude experiments and environments
 automate attacks, schedule with api and ci/cd
-scheduce recurring gammedays and fire drills
+schedule recurring gammedays and fire drills
 reproduce a previous outage in prod
 
 a gameday is dedicated time to come together and execute experiments
